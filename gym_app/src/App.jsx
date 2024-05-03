@@ -28,7 +28,7 @@ function App() {
   }
 
   return (
-    <main className="min-h-screen flex flex-col bg-gradient-to-r from-violet-900 to-violet-200 text-white text-sm sm:text-base">
+    <main className="min-h-screen flex flex-col bg-gradient-to-r from-violet-950 to-violet-200 text-white text-sm sm:text-base">
       {currentView === "hero" && (
         <Hero updateViewGenerate={updateViewGenerate} />
       )}

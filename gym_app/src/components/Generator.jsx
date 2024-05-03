@@ -74,7 +74,9 @@ export default function Generator(props) {
               }}
               className={
                 "bg-violet-950 border duration-200 px-4 hover:border-violet-600  py-3 rounded-lg" +
-                (type === poison ? " border-violet-100 border-x-2 border-y-2" : " border-violet-400")
+                (type === poison
+                  ? " border-violet-100 border-x-2 border-y-2"
+                  : " border-violet-400")
               }
               key={typeIndex}
             >

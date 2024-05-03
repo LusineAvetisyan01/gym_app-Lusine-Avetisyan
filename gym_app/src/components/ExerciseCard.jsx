@@ -23,8 +23,6 @@ export default function ExerciseCard(props) {
         <p className="capitalize">{exercise.muscles.join(" & ")}</p>
       </div>
 
-     
-
       <div className="grid grid-cols-2 sm:grid-cols-4 sm:place-items-center gap-2">
         {["reps", "rest", "tempo"].map((info) => {
           return (
@@ -58,7 +56,6 @@ export default function ExerciseCard(props) {
           );
         })}
       </div>
-
     </div>
   );
 }

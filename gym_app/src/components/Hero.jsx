@@ -9,7 +9,7 @@ export default function Hero(props) {
         <h1 className="font-bold text-violet-900 text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
           IT'S TIME TO GET FIT
         </h1>
-        <p className="text-violet-900">Gym app by Lusine Avetisyan</p>
+        <p className="text-violet-950">Gym app by Lusine Avetisyan</p>
       </div>
       <p className="text-md md:text-xl font-light">
         Start crafting your personalized workout plan with just a tap! Begin by
